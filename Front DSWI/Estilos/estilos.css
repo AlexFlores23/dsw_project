@@ -1,0 +1,543 @@
+
+#cuerpo a{
+	text-decoration: none!important;
+}
+
+svg:hover{
+	cursor: pointer;
+	color: orange;
+}
+
+.varDropdown > .row > .col-12:hover{
+	color:white!important;
+	background-color:#f9844a;
+	cursor: pointer; 
+}
+
+
+@media screen and (max-width: 550px){
+	.cajaPromo{
+		height: 150px;
+		width: 300px;
+		overflow: hidden;
+		margin: 2px auto;
+		border-radius: 10px;
+	}
+
+	.cajaPromo > .cajaImagen{
+		width: 45%;
+		height: 150px;
+		float: left;
+		display: inline-block;
+		overflow: hidden;
+	}
+
+	.cajaPromo > .cajaDetalle{
+		width: 55%;
+		height: 150px;
+		float: left;
+		display: inline-block;
+		overflow: hidden;
+	}
+
+	.cajaPromo > .cajaDetalle > .cajaTexto{
+		height: 130px;
+		overflow: hidden;
+	}
+	.cajaPromo > .cajaDetalle > .cajaIcono{
+		display: none;
+	}
+	.cajaPromo > .cajaDetalle > .cajaPrecio{
+		height: 20px;
+		overflow: hidden;
+		background-color: #f9844a;
+		text-align: center;
+		display: block;
+
+		color: white;
+		font-family: 'Roboto', sans-serif;
+	}
+	
+	.cajaPromo:hover > .cajaDetalle > .cajaPrecio{
+		background-color: white;
+		border-bottom: 1px solid #f9844a;
+		border-top: 1px solid #f9844a;
+		border-right: 1px solid #f9844a;
+		border-bottom-right-radius: 10px;
+		color: #f9844a;
+	}
+
+	.varDropdown{
+		position: absolute;
+		width: 90%;
+		border-bottom-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+		overflow: hidden;
+		border: 1px solid #d3d3d3;
+		background-color: white;
+	}
+
+	.varDropdown > .row > .col-12{
+		border-top: 1px solid #d3d3d3;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 50px;
+	}
+	.varDropdown > .row > .col-12 i{
+		display: none;
+	}
+
+	.varDropdown > .row > .col-12 p{
+		font-family: serif;
+	}
+
+}
+
+@media screen and (max-width: 800px) and (min-width: 550px){
+	.cajaPromo{
+		height: 150px;
+		width: 500px;
+		overflow: hidden;
+		margin: auto;
+		border-radius: 10px;
+	}
+
+	.cajaPromo > .cajaImagen{
+		width: 45%;
+		height: 150px;
+		float: left;
+		display: inline-block;
+		overflow: hidden;
+	}
+
+	.cajaPromo > .cajaDetalle{
+		width: 55%;
+		height: 150px;
+		float: left;
+		display: inline-block;
+		overflow: hidden;
+	}
+	.cajaPromo > .cajaDetalle > .cajaIcono{
+		display: none;
+	}
+	.cajaPromo > .cajaDetalle > .cajaTexto{
+		height: 130px;
+		overflow: hidden;
+	}
+
+	.cajaPromo > .cajaDetalle > .cajaPrecio{
+		height: 20px;
+		overflow: hidden;
+		background-color: #f9844a;
+		text-align: center;
+		display: block;
+		
+		color: white;
+		font-family: 'Roboto', sans-serif;
+	}
+	
+	.cajaPromo:hover > .cajaDetalle > .cajaPrecio{
+		background-color: white;
+		border-bottom: 1px solid #f9844a;
+		border-top: 1px solid #f9844a;
+		border-right: 1px solid #f9844a;
+		border-bottom-right-radius: 10px;
+		color: #f9844a;
+	}
+
+	.varDropdown{
+		position: absolute;
+		width: 90%;
+		border-bottom-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+		overflow: hidden;
+		border: 1px solid #d3d3d3;
+		background-color: white;
+	}
+
+	.varDropdown > .row > .col-12{
+		border-top: 1px solid #d3d3d3;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 50px;
+	}
+	.varDropdown > .row > .col-12 svg{
+		color: orange;
+		margin-right: 8px; 
+	}
+
+	.varDropdown > .row > .col-12 p{
+		font-family: serif;
+	}
+}
+
+@media screen and (min-width: 800px) and (max-width: 1200px){
+	.cajaPromo{
+		height: 150px;
+		width: 700px;
+		overflow: hidden;
+		margin: 4px auto;
+		border-radius: 10px;
+
+	}
+
+	.cajaPromo > .cajaImagen{
+		width: 160px;
+		height: 150px;
+		float: left;
+		display: inline-block;
+		overflow: hidden;
+	}
+
+	.cajaPromo > .cajaDetalle{
+		width: 540px;
+		height: 150px;
+		float: left;
+		display: inline-block;
+		overflow: hidden;
+	}
+
+	.cajaPromo > .cajaDetalle > .cajaTexto{
+		width: 45%;
+		height: 150px;
+		overflow: hidden;
+		float: left;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.cajaPromo > .cajaDetalle > .cajaIcono{
+		width: 30%;
+		height: 150px;
+		float: left;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.cajaPromo > .cajaDetalle > .cajaPrecio{
+		width: 25%;
+		height: 150px;
+		overflow: hidden;
+		float: left;
+		text-align: center;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.cajaPromo > .cajaDetalle > .cajaPrecio p{
+		background: white;
+		width: 80px;
+		border-radius: 10px;
+		border: 1px solid #f9844a;
+		color: #f9844a;
+	}
+
+	.cajaPromo > .cajaDetalle > .cajaPrecio p:hover{
+		background: #f9844a;
+		width: 80px;
+		border-radius: 10px;
+		border: 1px solid #f9844a;
+		color: white;
+	}
+
+	.varDropdown{
+		position: absolute;
+		width: 90%;
+		border-bottom-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+		overflow: hidden;
+		border: 1px solid #d3d3d3;
+		background-color: white;
+	}
+
+	.varDropdown > .row > .col-12{
+		border-top: 1px solid #d3d3d3;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 50px;
+	}
+	.varDropdown > .row > .col-12 svg{
+		color: orange;
+		margin-right: 8px; 
+	}
+
+	.varDropdown > .row > .col-12 p{
+		font-family: serif;
+	}
+}
+
+@media screen and (min-width: 1200px){
+	.cajaPromo{
+		height: 150px;
+		width: 1100px;
+		overflow: hidden;
+		margin: 4px auto;
+		border-radius: 10px;
+
+	}
+
+	.cajaPromo > .cajaImagen{
+		width: 160px;
+		height: 150px;
+		float: left;
+		display: inline-block;
+		overflow: hidden;
+	}
+
+	.cajaPromo > .cajaDetalle{
+		width: 940px;
+		height: 150px;
+		float: left;
+		display: inline-block;
+		overflow: hidden;
+	}
+
+	.cajaPromo > .cajaDetalle > .cajaTexto{
+		width: 45%;
+		height: 150px;
+		overflow: hidden;
+		float: left;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.cajaPromo > .cajaDetalle > .cajaIcono{
+		width: 30%;
+		height: 150px;
+		float: left;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.cajaPromo > .cajaDetalle > .cajaPrecio{
+		width: 25%;
+		height: 150px;
+		overflow: hidden;
+		float: left;
+		text-align: center;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.cajaPromo > .cajaDetalle > .cajaPrecio p{
+		background: white;
+		width: 100px;
+		border-radius: 10px;
+		border: 1px solid #f9844a;
+		color: #f9844a;
+	}
+
+	.cajaPromo > .cajaDetalle > .cajaPrecio p:hover{
+		background: #f9844a;
+		width: 100px;
+		border-radius: 10px;
+		border: 1px solid #f9844a;
+		color: white;
+	}
+
+	.varDropdown{
+		position: absolute;
+		width: 90%;
+		border-bottom-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+		overflow: hidden;
+		border: 1px solid #d3d3d3;
+		background-color: white;
+	}
+
+	.varDropdown > .row > .col-12{
+		border-top: 1px solid #d3d3d3;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 50px;
+	}
+	.varDropdown > .row > .col-12 svg{
+		color: orange;
+		margin-right: 8px; 
+	}
+
+	.varDropdown > .row > .col-12 p{
+		font-family: serif;
+	}
+
+}
+
+@media screen and (max-width: 1200px) {
+	.scroll-horizontal{
+		overflow: auto;
+  		white-space: nowrap;
+	}
+
+	.vermas{
+		display: none;
+	}
+}
+
+footer{
+	background-color: #f9844a;
+	text-align: center;
+	color: white;
+}
+
+footer a{
+	margin-top: 5px;
+	margin-bottom: : 5px;
+	display: block;
+	color: white;
+}
+
+.aPegados a{
+	display: inline-block;
+	margin: 0 5px;
+}
+
+.caja:hover{
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 1rem 2.5rem;
+    transform: translateY(-2px);
+}
+
+.cajaPromo:hover{
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 1rem 2.5rem;
+    transform: translateY(-2px);
+}
+
+h3{
+	font-family: 'Roboto', sans-serif;
+	color: #A4A4A4;
+}
+
+.carousel h3{
+	font-family: 'Roboto', sans-serif;
+	color: white!important;
+}
+
+/*caja de seccion de juegos*/
+ .scroll-horizontal > .pt-2 > .caja {
+	width: 160px!important;
+	height: 300px;
+	border-radius: 10px;
+	display: inline-block;
+	overflow: hidden;
+	background-color: rgb(255 255 255);
+}
+
+ .scroll-horizontal > .pt-2 > .caja img{
+ 	width: 160px;
+ 	height: 150px;
+ }
+
+.scroll-horizontal > .pt-2 > .caja p{
+	height: 50%;
+	white-space: normal;
+	color: black;
+}
+
+.scroll-horizontal > .pt-2 > .caja .precio{
+	height: 20%;
+	background-color: #f9844a;
+}
+
+.scroll-horizontal > .pt-2 > .caja .precio > .row > .pAntes{
+	text-decoration-line: line-through;
+	font-family: 'Roboto', sans-serif;
+	opacity: 0.5;
+	color:white;
+}
+
+.scroll-horizontal > .pt-2 > .caja .precio > .row >.pActual{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+/****fin caja de seccion de juegos******/
+
+/*caja mejores juegos*/
+.bestPlay{
+	height: 75vh;
+}
+
+.bestPlay > .row{
+	max-height: 100%;
+	padding: 5px;
+}
+.bestPlay > .row > .caja{
+	border-radius: 10px!important;
+	height: 90px;
+	margin-top: 7px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.bestPlay > .row > .caja img{
+	width: 70px;
+	height: auto;
+}
+
+.bestPlay > .row > .caja .cajaDetalle{
+	height: 70px;
+	color: black;
+}
+
+.bestPlay > .row > .caja .cajaPrecio{
+	color:white;
+	background-color: #f9844a;
+	overflow: hidden;
+	font-family: 'Roboto', sans-serif;
+}
+
+.bestPlay > .row > .caja .cajaPrecio > .row >.pAntes{
+	text-decoration: line-through;
+	opacity: 0.5;
+}
+
+/********fin caja mejores juegos*****/
+
+
+/*Caja de promociones*/
+.todoPromo{
+	background-color: #f5f3f4;
+	border-radius: 10px;
+	padding-top: 0px!important;
+	margin-bottom: 5px;
+	padding: 5px 0;
+	height: auto;
+	max-height: 900px;
+	overflow-y: scroll;
+}
+
+.todoPromo:hover{
+	cursor: pointer;
+}
+
+.todoPromo > .col-12 > .text-center > .col-3 > p{
+	font-family: 'Roboto', sans-serif;
+	color: #A4A4A4;
+	margin: 0px;
+}
+
+.todoPromo > .col-12 > .text-center > .col-3 > p:hover{
+	color: #495057;
+}
+
+.todoPromo > .col-12 > .text-center > .col-3:hover {
+	cursor: pointer;
+}
+
+.todoPromoTabSeleccionCaja{
+	background-color:#f5f3f4;
+}
+
+.todoPromoTabSeleccionLetra{
+	color: #495057!important;
+}
+/******Fin caja de promociones******/
+
