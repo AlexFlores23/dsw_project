@@ -14,7 +14,7 @@ namespace WcfBuyPay
     // NOTE: para iniciar el Cliente de prueba WCF para probar este servicio, seleccione Service1.svc o Service1.svc.cs en el Explorador de soluciones e inicie la depuración.
     public class Service1 : IService1
     {
-        SqlConnection cn = new SqlConnection(@"server=BETP\MSSQLSERVER01; database=proyectoDSW; integrated security= true");
+        SqlConnection cn = new SqlConnection(@"server=BETP\MSSQLSERVER01; database=Negocios2020; integrated security= true");
 
         public string Agregar(Usuario u)
         {
@@ -46,73 +46,22 @@ namespace WcfBuyPay
             return mensaje;
         }
 
-        public string Login(Usuario u)
+        public string login(Usuario u)
         {
-            String mensaje = "";
-
-            using (SqlCommand cmd = new SqlCommand("usp_validaAcceso", cn))
+            string mensaje;
+            using (SqlCommand cmd = new SqlCommand("sp_addUsuario", cn))
             {
                 try
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
+
+                    cmd.Parameters.AddWithValue("@nombre", u.nombre);
+                    cmd.Parameters.AddWithValue("@apellido", u.apellido);
                     cmd.Parameters.AddWithValue("@usuario", u.usuario);
                     cmd.Parameters.AddWithValue("@clave", u.clave);
                     cn.Open();//abrir antes de ejecutar
                     cmd.ExecuteNonQuery();
-                    mensaje = "Ingresando";
-                }
-                catch (Exception ex)
-                {
-                    mensaje = ex.Message;
-                }
-                finally
-                {
-                    cn.Close();
-                }
-            }
-            return mensaje;
-
-        }
-
-        public Usuario buscarUsuario(string usuario){
-
-            Usuario u = null;
-
-            using (SqlCommand cmd = new SqlCommand("sp_buscarUsuario", cn))
-            {
-                cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@usuario", usuario);
-                cn.Open();
-                SqlDataReader dr = cmd.ExecuteReader();
-                if (dr.Read())
-                {
-                    u = new Usuario()
-                    {
-                        clave = dr.GetString(5),
-
-                    };
-                }
-                dr.Close();
-                cn.Close();
-            }
-
-            return u;
-        }
-
-        public string Contra(Usuario u)
-
-        {
-            String mensaje = "";
-
-            using (SqlCommand cmd = new SqlCommand("usp_recuperarcontra", cn))
-            {
-                try
-                {
-                    cmd.CommandType = CommandType.StoredProcedure;
-                   cmd.Parameters.AddWithValue("@clave", u.clave);
-                    cn.Open();//abrir antes de ejecutar
-                    cmd.ExecuteNonQuery();
-                    mensaje = "Se cambio con exito";
+                    mensaje = "Usuario Registrado ";
                 }
                 catch (Exception ex)
                 {

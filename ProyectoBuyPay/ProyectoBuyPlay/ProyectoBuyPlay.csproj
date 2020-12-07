@@ -137,6 +137,7 @@
   <ItemGroup>
     <None Include="Connected Services\ServiceReference1\configuration91.svcinfo" />
     <None Include="Connected Services\ServiceReference1\configuration.svcinfo" />
+    <Content Include="Bd\PRY_DSW.sql" />
     <Content Include="Connected Services\ServiceReference1\ProyectoBuyPlay.ServiceReference1.Usuario.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>

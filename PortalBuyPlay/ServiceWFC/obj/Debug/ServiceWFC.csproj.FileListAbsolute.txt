@@ -1,6 +1,0 @@
-C:\Users\betsy pillco\Desktop\Proyecto DSW\dsw_project\PortalBuyPlay\ServiceWFC\bin\ServiceWFC.dll.config
-C:\Users\betsy pillco\Desktop\Proyecto DSW\dsw_project\PortalBuyPlay\ServiceWFC\bin\ServiceWFC.dll
-C:\Users\betsy pillco\Desktop\Proyecto DSW\dsw_project\PortalBuyPlay\ServiceWFC\bin\ServiceWFC.pdb
-C:\Users\betsy pillco\Desktop\Proyecto DSW\dsw_project\PortalBuyPlay\ServiceWFC\obj\Debug\ServiceWFC.csproj.CoreCompileInputs.cache
-C:\Users\betsy pillco\Desktop\Proyecto DSW\dsw_project\PortalBuyPlay\ServiceWFC\obj\Debug\ServiceWFC.dll
-C:\Users\betsy pillco\Desktop\Proyecto DSW\dsw_project\PortalBuyPlay\ServiceWFC\obj\Debug\ServiceWFC.pdb
