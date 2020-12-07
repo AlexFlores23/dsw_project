@@ -1,0 +1,7 @@
+C:\Users\betsy pillco\Desktop\Proyecto DSW\dsw_project\ProyectoBuyPay\WcfBuyPay\bin\WcfBuyPay.dll.config
+C:\Users\betsy pillco\Desktop\Proyecto DSW\dsw_project\ProyectoBuyPay\WcfBuyPay\bin\WcfBuyPay.dll
+C:\Users\betsy pillco\Desktop\Proyecto DSW\dsw_project\ProyectoBuyPay\WcfBuyPay\bin\WcfBuyPay.pdb
+C:\Users\betsy pillco\Desktop\Proyecto DSW\dsw_project\ProyectoBuyPay\WcfBuyPay\obj\Debug\WcfBuyPay.csprojAssemblyReference.cache
+C:\Users\betsy pillco\Desktop\Proyecto DSW\dsw_project\ProyectoBuyPay\WcfBuyPay\obj\Debug\WcfBuyPay.csproj.CoreCompileInputs.cache
+C:\Users\betsy pillco\Desktop\Proyecto DSW\dsw_project\ProyectoBuyPay\WcfBuyPay\obj\Debug\WcfBuyPay.dll
+C:\Users\betsy pillco\Desktop\Proyecto DSW\dsw_project\ProyectoBuyPay\WcfBuyPay\obj\Debug\WcfBuyPay.pdb

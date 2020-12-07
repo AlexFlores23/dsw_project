@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfBuyPay", "WcfBuyPay\WcfBuyPay.csproj", "{804DBA2B-80AD-4C70-994E-A567E64AE1B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoBuyPlay", "ProyectoBuyPlay\ProyectoBuyPlay.csproj", "{1E84879D-B82D-468E-8ED3-9E3E528B93F9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{804DBA2B-80AD-4C70-994E-A567E64AE1B8} = {804DBA2B-80AD-4C70-994E-A567E64AE1B8}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{804DBA2B-80AD-4C70-994E-A567E64AE1B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{804DBA2B-80AD-4C70-994E-A567E64AE1B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{804DBA2B-80AD-4C70-994E-A567E64AE1B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{804DBA2B-80AD-4C70-994E-A567E64AE1B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E84879D-B82D-468E-8ED3-9E3E528B93F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E84879D-B82D-468E-8ED3-9E3E528B93F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E84879D-B82D-468E-8ED3-9E3E528B93F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E84879D-B82D-468E-8ED3-9E3E528B93F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E11003D-D47F-4709-A4F8-C8E57D9CAF40}
+	EndGlobalSection
+EndGlobal
